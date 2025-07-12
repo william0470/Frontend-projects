@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
 .row{
     height: 100px;
     width: 100%;
@@ -20,4 +23,29 @@
 }
 .black{
     background-color:#f5f5b8;
+}
+
+.header{
+   text-align: center;
+   font-family: 'lobster',cursive;
+   font-size: 40px;
+   color: black;
+   cursor: pointer;
+   transition: 0.5s;
+   animation: glow 0.5s linear infinite;
+
+}
+
+@keyframes glow {
+    from{
+        color: grey;
+    }
+    to{
+        color: white;
+        text-shadow: 0 0 5px #03e9f4,
+        0 0 5px #03e9f4,
+        0 0 5px #03e9f4,
+        0 0 5px #03e9f4;
+    }
+    
 }
